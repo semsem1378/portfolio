@@ -5,8 +5,9 @@ const images = [
     'static/img/hero4.jpg',
     'static/img/hero5.jpg'
 ];
-let currentImageIndex = 0;
+let currentImageIndex = 1;
 const slideshow = document.getElementById('hero-slideshow');
+slideshow.style.backgroundImage = `url(${images[0]})`;
 const row1 = document.querySelector('div#firstrow');
 const row2 = document.querySelector('div#secondrow');
 let flag = false; 
