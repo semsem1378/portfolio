@@ -1,0 +1,125 @@
+*{
+    box-sizing: border-box;
+}
+#hero-slideshow {
+    height: 60vh;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    animation: fadeEffect 10s infinite;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: rgb(26, 14, 58);
+    color: rgb(26, 14, 58);
+    
+
+}
+
+.shadow{
+    text-shadow: 3px 2px 3px #000000;
+}
+.mycontainer{
+    width: 100%;
+}
+.collage-container{
+    padding: 0rem 1rem;
+    overflow: hidden;
+    height: 65vh;
+    position: relative;
+    color: white;
+}
+.collage-container img{
+    max-height: 100%;
+}
+.overlay h1, .overlay p{
+    display: inline-block;
+    width: fit-content;
+    /* background-color: black; */
+    padding: 0.2rem;
+}
+#hero-slideshow .overlay, .collage-container .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+#hero-slideshow .container {
+    z-index: 2;
+    position: relative;
+}
+@keyframes fadeEffect {
+    0%,100% {
+        opacity: 0;
+    }
+    5% {
+        opacity: 1;
+    }
+    95% {
+        opacity: 1;
+    }
+}
+
+#hero-collage .collage-container {
+    position: relative;
+}
+#hero-collage img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.collage-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border-bottom-left-radius: 0.25rem;
+    border-bottom-right-radius: 0.25rem;
+    font-size: 0.9rem;
+    display: none;
+}
+
+
+.nodisplay{
+    display: none !important;
+    transition: 0.5s;
+}
+
+.disapperAnimation{
+    animation: disapperAnimation 0.5s ease-in forwards;
+}
+
+@keyframes disapperAnimation {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes apperAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+.appear{
+    opacity: 0;
+    animation: apperAnimation 0.5s ease-in forwards;
+}
+
+
+@media screen and (max-width: 770px) {
+ .extra{
+    display: none !important;
+ }    
+}

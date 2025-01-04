@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CORSConfiguration>
+    <CORSRule>
+        <AllowedOrigin>*</AllowedOrigin>
+        <AllowedMethod>GET</AllowedMethod>
+        <AllowedMethod>PUT</AllowedMethod>
+        <AllowedHeader>*</AllowedHeader>
+    </CORSRule>
+</CORSConfiguration>
+
+<h2>Internship Report - Summer 1400 (2021)</h2>
+<ul>
+<li>Name: Sajjad Ebrahimi Moghaddam</li>
+<li>Student Number: 96531001</li>
+<li>Field of Study: Bachelor's in Materials and Metallurgy Engineering, Production and Metal Processing</li>
+<li>Internship Duration: 360 hours</li>
+<li>Supervisor: Dr. Masoud Goudarzi</li>
+<li>Internship Start and End Dates: From July 10 to September 11</li>
+<li>Internship Location: Fooladrizan Company</li>
+</ul>
+<h3>Overview</h3>
+Fooladrizan Company started its activities in 1981, focusing on the production of steel and cast iron parts, with a capacity of 15,000 tons annually on a 15,000 square meters land, including a 6,000 square meter production hall for molding, core-making, heat treatment, shot blasting, grinding, and machining.
+
+The company mainly operates in the field of manufacturing high-temperature resistant steel parts and manages the entire production process from start to finish. Its primary focus is on fulfilling orders for cement factories and producing high-temperature resistant steel components, such as alloy steel 1.4848.
+<br>
+During my internship, I visited various units such as molding, melting, core-making, and machining workshops, and I primarily worked in the laboratory. I have detailed my experiences and activities in the following chapters.
+
+<h3>Summary of Achievements</h3>
+<ol>
+<li>Practical Experience in Molding and Core-Making:</li>
+
+Gained hands-on experience in various molding techniques such as CO2 sand molding, hot box, and cold box methods.
+Developed a practical understanding of core-making processes, including creating cores with different materials and using specific methods like "sand with furfuryl alcohol" for cold cores.
+<li>Understanding of Induction Furnace Operations:</li>
+
+Learned the setup, control, and maintenance of induction furnaces.
+Understood the process of adjusting voltage and water pressure in the furnaces and the use of raw materials and recycled waste for achieving specific alloy compositions.
+<li>Problem-Solving in the Foundry Process:</li>
+
+Successfully calculated the exact charge required for producing GG-25 cast iron, resolving a critical issue related to material balance.
+Improved efficiency in casting operations through analysis and adjustment of material inputs.
+<li>Laboratory Analysis and Quality Control:</li>
+
+Conducted detailed chemical and mechanical tests on cast parts.
+Became proficient in using various lab equipment such as spectrometers and universal hardness testers.
+Performed quantitative analysis using the Quantometer and ensured compliance with industry standards.
+<li>Project-Based Contributions:</li>
+
+Participated in several foundry projects, including enhancing the molding processes and quality assurance in the production line.
+Suggested process optimizations that improved the overall quality and reduced defects in cast components.
+<li>Exposure to Advanced Metallurgical Techniques:</li>
+
+Engaged in the preparation and testing of advanced alloy compositions like duplex stainless steel and Inconel, contributing to the company’s initiative to become the first producer of these specialized parts in Iran​.
+</ol>
+Overall, the internship experience not only enhanced technical skills in metallurgical engineering and foundry processes but also offered valuable exposure to real-world challenges and problem-solving in an industrial setting.
