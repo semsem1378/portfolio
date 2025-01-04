@@ -12,12 +12,15 @@ const row2 = document.querySelector('div#secondrow');
 let flag = false; 
 
 function changeBackground() {
-    slideshow.style.backgroundImage = `url(${images[currentImageIndex]})`;
-    currentImageIndex = (currentImageIndex + 1) % images.length;
+    if(slideshow){
+
+        slideshow.style.backgroundImage = `url(${images[currentImageIndex]})`;
+        currentImageIndex = (currentImageIndex + 1) % images.length;
+    }
 }
 
-// setInterval(changeBackground, 10000); // Change image every 5 seconds
-// changeBackground(); // Initial call to set the first image
+setInterval(changeBackground, 10000); // Change image every 5 seconds
+changeBackground(); // Initial call to set the first image
 
 
 function chnageGridItems() {

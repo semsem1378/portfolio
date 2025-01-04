@@ -15,6 +15,9 @@
 
 }
 
+#hero-slideshow{
+    display: none;
+}
 .shadow{
     text-shadow: 3px 2px 3px #000000;
 }
@@ -122,4 +125,10 @@
  .extra{
     display: none !important;
  }    
+ #hero-slideshow{
+    display: block !important;
+ }
+ #hero-collage{
+    display: none !important;
+ }
 }
