@@ -11,10 +11,8 @@ slideshow.style.backgroundImage = `url(${images[0]})`;
 const row1 = document.querySelector('div#firstrow');
 const row2 = document.querySelector('div#secondrow');
 let flag = false; 
-
 function changeBackground() {
     if(slideshow){
-
         slideshow.style.backgroundImage = `url(${images[currentImageIndex]})`;
         currentImageIndex = (currentImageIndex + 1) % images.length;
     }
@@ -25,6 +23,7 @@ changeBackground(); // Initial call to set the first image
 
 
 function chnageGridItems() {
+   
     if(flag){
         row1.classList.add('nodisplay');
         row1.classList.remove('appear');
