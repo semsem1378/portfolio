@@ -15,8 +15,8 @@
 
 }
 
-#hero-slideshow{
-    display: none;
+section#hero-slideshow{
+    display: none !important;
 }
 .shadow{
     text-shadow: 3px 2px 3px #000000;
@@ -122,13 +122,13 @@
 
 
 @media screen and (max-width: 770px) {
- .extra{
-    display: none !important;
- }    
- #hero-slideshow{
-    display: block !important;
- }
- #hero-collage{
-    display: none !important;
- }
+    .extra{
+        display: none !important;
+    }    
+    section#hero-slideshow{
+        display: block !important;
+    }
+    #hero-collage{
+        display: none !important;
+    }
 }
