@@ -25,44 +25,47 @@ projects = [
     {
         'id': 1,
         'title': 'Gold adsorption and recovery using reduced graphene oxide',
-        'description': 'This project focuses on the adsorption of gold using rGO synthesized in the lab.',
+        'description': 'Developing greener methods for gold recovery and adsorption; Gold separation from almost 16 other elements in WPCBs, or waste printed circuit boards, has been a recent intriguing research area, as the amount of WPCBs are increasing due to the advancement of AI and other techs. ',
         'image_url': '/static/img/gold_adsorption.jpg',
         'details': ['Studied adsorption capacity under different conditions.',
-                    'Optimized pH and temperature for maximum adsorption.',
-                    'Evaluated the environmental impact of the process.'],
+                    'Optimized kinetics and selectivity for maximum adsorption.',
+                    'Evaluated the environmental impact of the process.',
+                    'considering differnt leaching media for adospriton of gold using rGO'],
         'images': ['/static/img/gold-1.jpg','/static/img/gold-4.jpg','/static/img/gold-2.jpg','/static/img/gold-3.jpg','/static/img/gold-5.jpg','/static/img/gold-6.jpg']
     },
     {
         'id': 2,
         'title': 'Microwave assisted leaching of rare earth elements (REEs) using organic acids',
-        'description': 'Recovery of electrolytes from used Li-ion batteries for sustainable reuse.',
+        'description': 'Transforming industrial waste, like red mud, into something valuable—A microwave-assisted approach. Red mud is a reddish residue of the Bayer process for producing alumina. This waste is generated in millions of tons each year, forcing the industries to find effective strategies to manage it. Such a massive, yet precious byproduct can be reach in some REEs like scandium and yttrium. Microwave technique can also be a promising method for selective heating and fast leaching of desirable components which is investigated in this project.',
         'image_url': '/static/img/microwave_redmud.jpg',
-        'details': ['Developed methods to separate and purify electrolytes.',
-                    'Investigated the effects of different solvents on recovery efficiency.',
-                    'Established a workflow for scalable recovery.'],
+        'details': ['Optimized process for selective REE leaching.',
+                    'Reduced environmental impact compared to conventional methods due to lower and greener acid usage.',
+                    'Established a workflow for scalable recovery.',
+                    "figuring out the mechanism beneath microwave assisted leaching"],
         'images': ['/static/img/mw-1.jpg','/static/img/mw-3.png','/static/img/xrd-redmud.png']
 
     },
     {
         "id": 3,
         "title": "Electrolyte recovery and PVDF removal from spent Li-ion batteries",
-        "description": "Microwave-assisted leaching for REE extraction.",
+        "description": "Recycling Li-ion batteries by recovering electrolytes to support the circular economy, and manage the toxic chemicals involved. Li-ion battery electrolytes are usually made of some carbonate solvents and a Li-salt (typically LiPF6). The salt can highly react with moisture and water, producing HF gas as an undesirable product. Plus, carbonates have toxicity to some extend.",
         "image_url": "static/img/battery.jpg",
         "details": [
-            "Optimized process for selective REE leaching.",
-            "Reduced environmental impact compared to conventional methods.",
-            "Ongoing research for industrial scalability."
+            "Developed methods to separate and purify electrolytes.",
+            "Investigated the effects of different solvents on recovery efficiency.",
+            "Ongoing research for industrial scalability.",
+            
         ],
         'images': ['/static/img/hero4.jpg',"/static/img/battery.jpg",'/static/img/li-1.jpg']
     },
     {
         "id": 4,
         "title": "REEs separation using rGO - Nd magnet recycling ",
-        "description": "Microwave-assisted leaching for REE extraction.",
+        "description": "Extracting REEs(Rare earth elements) from Nd magnets followed by purification through adsorption techniques: REEs are critical for manufacturing of high-tech devices, such as next-gen LED screens, aerospace equipment, and electric vehicles. Nd magnets that are out of order can be a potentially great secondary source for REEs supply. However, separation of these elements, either from impurities or from each other has always been a mindboggling challenge. In this project, we are experimenting with a graphene-based adsorbent designed to separate REEs from major impurities such as iron and copper. ",
         "image_url": "static/img/nd_magnet.png",
         "details": [
             "Optimized process for selective REE leaching.",
-            "Reduced environmental impact compared to conventional methods.",
+            "investigating different graphene oxide based adsorbents for separation if REEs",
             "Ongoing research for industrial scalability."
         ],
         'images': ['/static/img/magnet-1.jpg',"/static/img/magnet-2.jpg",'/static/img/hero5.jpg']
@@ -70,7 +73,7 @@ projects = [
     {
         "id": 5,
         "title": "Microwave assisted alkaline leaching of monazite",
-        "description": "Microwave-assisted leaching for REE extraction.",
+        "description": "Finding ways to selectively leach REEs from monazite concentrates. Diversifying supply chains for critical materials is more important than ever. What excites me most is the potential to see these ideas making a real difference, not just in labs but in the world.",
         "image_url": "static/img/Monazite.jpg",
         "details": [
             "Optimized process for selective REE leaching.",
@@ -82,12 +85,12 @@ projects = [
         
         "id": 6,
         "title": "Water treatment and heavy metal ions removal using graphene-oxide based adsorbents",
-        "description": "Microwave-assisted leaching for REE extraction.",
+        "description": "Exploring new ideas in water treatment, an area I feel passionate about given its impact on communities.",
         "image_url": "static/img/watertreat.jpg",
         "details": [
-            "Optimized process for selective REE leaching.",
+            "Evaluating graphene based adsorbents for heavy metal removal from waste waters ",
             "Reduced environmental impact compared to conventional methods.",
-            "Ongoing research for industrial scalability."
+            "Trying to find an adsorbent that favours the circular economy with the ability of easy regeneration "
         ]
         
     }
