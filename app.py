@@ -71,7 +71,7 @@ projects = [
         "id": 5,
         "title": "Microwave assisted alkaline leaching of monazite",
         "description": "Microwave-assisted leaching for REE extraction.",
-        "image_url": "static/img/monazite.jpg",
+        "image_url": "static/img/Monazite.jpg",
         "details": [
             "Optimized process for selective REE leaching.",
             "Reduced environmental impact compared to conventional methods.",
