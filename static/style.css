@@ -98,6 +98,10 @@ section#hero-slideshow{
     animation: disapperAnimation 0.5s ease-in forwards;
 }
 
+section#about p{
+    text-align: justify;
+}
+
 @keyframes disapperAnimation {
     0% {
         opacity: 1;
